@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<form method="POST" action="/drinks/coffee">
+  <label>Coffee</label>&nbsp<%= @coffee %></br>
+    <input type="submit" id="coffee" name="coffee" for="coffee"/>
+</form>
+</br></br>
+<form method="POST" action="/drinks/tea">
+  <label>Tea</label>&nbsp<%= @tea %></br>
+    <input type="submit" id="tea" name="tea" for="tea"/>
+</form>
+</br></br>
+<form method="POST" action="/drinks/water" for="water">
+  <label>Water</label>&nbsp<%= @water %></br>
+    <input type="submit" id="water" name="water" />
+</form>
+</br></br>
+</html>
