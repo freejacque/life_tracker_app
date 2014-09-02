@@ -38,6 +38,10 @@ class App < Sinatra::Base
         @@tea += 1
       when "water"
         @@water += 1
+      when "reset"
+        @@coffee = 0
+        @@tea = 0
+        @@water = 0
     end
     redirect to('/')
   end
